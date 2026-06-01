@@ -1,0 +1,22 @@
+/* 
+Global print styles for the app 
+This hides everything EXCEPT the `#printable-bill` element when window.print() is called.
+*/
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #printable-bill, #printable-bill * {
+    visibility: visible;
+  }
+  #printable-bill {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 20px !important;
+    box-shadow: none !important;
+  }
+  @page { margin: 0; }
+}
