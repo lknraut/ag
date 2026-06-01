@@ -1,0 +1,8 @@
+{
+  "name": "AgriPOS",
+  "description": "Offline-first Point of Sale for agricultural shops with Google Sheets sync. Local storage, billing, inventory.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
